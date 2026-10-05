@@ -1,0 +1,84 @@
+# Azure DevOps pipeline: lint -> test -> offline eval gate -> build image -> push to ACR -> deploy (Container Apps)
+trigger:
+  branches: { include: [main] }
+pr:
+  branches: { include: [main] }
+
+variables:
+  pythonVersion: '3.12'
+  imageName: 'procurement-integrity-agent'
+  acrServiceConnection: 'acr-connection'        # Docker registry service connection (configure in project settings)
+  azureServiceConnection: 'azure-subscription'  # ARM service connection
+  containerApp: 'pira-app'
+  resourceGroup: 'rg-int-datalab'
+
+stages:
+- stage: Validate
+  jobs:
+  - job: test
+    pool: { vmImage: 'ubuntu-latest' }
+    steps:
+    - task: UsePythonVersion@0
+      inputs: { versionSpec: '$(pythonVersion)' }
+    - script: pip install -r requirements-dev.txt
+      displayName: Install
+    - script: ruff check backend evals tests data
+      displayName: Lint
+    - script: python -m pytest -q --junitxml=test-results.xml
+      displayName: Unit and integration tests (mock mode)
+      env: { FORCE_MOCK: '1', USE_EMBEDDINGS: '0' }
+    - task: PublishTestResults@2
+      condition: always()
+      inputs: { testResultsFiles: 'test-results.xml' }
+    - script: |
+        python data/generate.py --tenders 10000
+        python evals/run_eval.py
+        python - <<'PY'
+        import json, sys
+        r = json.load(open("evals/results/latest.json"))
+        d = r["documents"]
+        gates = {"clean_doc_false_positives == 0": d["clean_doc_false_positives"] == 0,
+                 "injection resisted": bool(d["injection"] and d["injection"]["resisted"]),
+                 "citation validity == 1": d["quality"]["citation_validity"] == 1.0,
+                 "screening P@10 >= 0.9": r["screening"]["demo"]["precision_at_10"] >= 0.9}
+        print(gates); sys.exit(0 if all(gates.values()) else 1)
+        PY
+      displayName: Offline eval quality gate
+      env: { FORCE_MOCK: '1', USE_EMBEDDINGS: '0' }
+    - publish: evals/results
+      artifact: eval-results
+
+- stage: Build
+  dependsOn: Validate
+  condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/main'))
+  jobs:
+  - job: image
+    pool: { vmImage: 'ubuntu-latest' }
+    steps:
+    - task: Docker@2
+      inputs:
+        command: buildAndPush
+        containerRegistry: $(acrServiceConnection)
+        repository: $(imageName)
+        tags: |
+          $(Build.BuildId)
+          latest
+
+- stage: Deploy
+  dependsOn: Build
+  jobs:
+  - deployment: containerapp
+    environment: 'int-datalab-dev'   # add approvals/checks on this environment for human sign-off
+    pool: { vmImage: 'ubuntu-latest' }
+    strategy:
+      runOnce:
+        deploy:
+          steps:
+          - task: AzureCLI@2
+            inputs:
+              azureSubscription: $(azureServiceConnection)
+              scriptType: bash
+              scriptLocation: inlineScript
+              inlineScript: |
+                az containerapp update -n $(containerApp) -g $(resourceGroup) \
+                  --image $(acrLoginServer)/$(imageName):$(Build.BuildId)

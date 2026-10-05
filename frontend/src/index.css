@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: light;
+  --bg: #f4f5f7;
+  --surface: #ffffff;
+  --surface-2: #f8f9fb;
+  --border: #e3e6eb;
+  --ink: #111827;
+  --ink-2: #4b5563;
+  --ink-3: #6b7280;
+  --brand: #12305a;
+  --brand-2: #1d4f91;
+  --accent: #2a78d6;
+  --banner-bg: #fff7e6;
+  --banner-border: #f5c46b;
+  --banner-ink: #7a4b00;
+  --crit: #d03b3b;
+  --serious: #ec835a;
+  --warn: #fab219;
+  --good: #0ca30c;
+  --series-1: #2a78d6;
+  --hl-high: #fde2e2;
+  --hl-medium: #fde9de;
+  --hl-low: #fff3cf;
+}
+@media (prefers-color-scheme: dark) {
+  :root:where(:not([data-theme="light"])) {
+    color-scheme: dark;
+    --bg: #111213;
+    --surface: #1a1a19;
+    --surface-2: #222221;
+    --border: #34342f;
+    --ink: #f5f5f4;
+    --ink-2: #c3c2b7;
+    --ink-3: #9a998f;
+    --brand: #8fb4ea;
+    --brand-2: #b8d0f3;
+    --accent: #3987e5;
+    --banner-bg: #2b2210;
+    --banner-border: #7a5a14;
+    --banner-ink: #f6d58e;
+    --series-1: #3987e5;
+    --hl-high: #4a1f1f;
+    --hl-medium: #4a2c1c;
+    --hl-low: #46391a;
+  }
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-line: var(--border);
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-ink-3: var(--ink-3);
+  --color-brand: var(--brand);
+  --color-brand-2: var(--brand-2);
+  --color-accent: var(--accent);
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+}
+
+body { background: var(--bg); color: var(--ink); font-family: var(--font-sans); }
+.card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; }
+.chip { display: inline-flex; align-items: center; gap: 4px; font-size: 11px; font-weight: 500; padding: 2px 8px;
+  border-radius: 999px; border: 1px solid var(--border); background: var(--surface-2); color: var(--ink-2); white-space: nowrap; }
+.btn { display: inline-flex; align-items: center; gap: 6px; font-weight: 600; font-size: 13px; padding: 7px 14px;
+  border-radius: 8px; border: 1px solid var(--border); background: var(--surface); color: var(--ink); cursor: pointer; }
+.btn:hover { background: var(--surface-2); }
+.btn:disabled { opacity: .5; cursor: not-allowed; }
+.btn-primary { background: var(--brand); color: #fff; border-color: var(--brand); }
+@media (prefers-color-scheme: dark) { :root:where(:not([data-theme="light"])) .btn-primary { color: #0b1626; } }
+.btn-primary:hover { background: var(--brand-2); }
+.label { font-size: 11px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--ink-3); }
+.mono { font-family: var(--font-mono); }
+@keyframes fadein { from { opacity: 0; transform: translateY(4px) } to { opacity: 1; transform: none } }
+.fadein { animation: fadein .25s ease-out; }

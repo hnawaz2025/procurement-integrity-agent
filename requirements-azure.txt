@@ -1,0 +1,2 @@
+# Optional: export OpenTelemetry traces to Azure Monitor / Application Insights.
+azure-monitor-opentelemetry

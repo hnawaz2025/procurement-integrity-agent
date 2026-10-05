@@ -1,0 +1,201 @@
+tender_id,entity_id,sector,title,method,estimated_value,review_threshold,published,deadline,window_days,award_date,winner_id,contract_value,amendment_pct,justification,award_note
+T0000001,PE02,roads,Roads package 0001,open,3452589.46,1000000,2023-01-07,2023-01-29,22,2023-03-06,C000061,3708044.22,0.0,,Lowest evaluated responsive bid.
+T0000002,PE02,roads,Roads package 0002,open,838488.85,1000000,2023-03-21,2023-04-27,37,2023-05-28,C000062,917123.49,0.0,,Lowest evaluated responsive bid.
+T0000003,PE01,roads,Roads package 0003,open,2416701.72,1000000,2023-06-09,2023-07-08,29,2023-07-29,C000063,2654717.8,0.0,,Lowest evaluated responsive bid.
+T0000004,PE02,roads,Roads package 0004,open,3426082.09,1000000,2023-08-24,2023-09-20,27,2023-10-11,C000064,3728588.48,0.0,,Lowest evaluated responsive bid.
+T0000005,PE01,roads,Roads package 0005,open,802886.07,1000000,2023-11-02,2023-11-25,23,2023-12-13,C000061,864478.56,0.0,,Lowest evaluated responsive bid.
+T0000006,PE01,roads,Roads package 0006,open,1188435.88,1000000,2024-01-13,2024-02-24,42,2024-04-02,C000062,1296673.93,0.0,,Lowest evaluated responsive bid.
+T0000007,PE01,roads,Roads package 0007,open,1851694.47,1000000,2024-04-14,2024-05-06,22,2024-06-11,C000063,1986552.33,0.0,,Lowest evaluated responsive bid.
+T0000008,PE01,roads,Roads package 0008,open,2493796.74,1000000,2024-06-25,2024-08-06,42,2024-09-03,C000064,2746592.03,0.0,,Lowest evaluated responsive bid.
+T0000009,PE02,roads,Roads package 0009,open,1420839.95,1000000,2024-09-12,2024-10-20,38,2024-10-31,C000061,1494981.13,0.0,,Lowest evaluated responsive bid.
+T0000010,PE02,roads,Roads package 0010,open,850869.82,1000000,2024-11-26,2024-12-19,23,2025-01-21,C000062,925066.58,0.0,,Lowest evaluated responsive bid.
+T0000011,PE01,roads,Roads package 0011,open,3224215.47,1000000,2025-02-05,2025-03-21,44,2025-04-24,C000063,3406177.08,0.0,,Lowest evaluated responsive bid.
+T0000012,PE02,roads,Roads package 0012,open,1422987.54,1000000,2025-04-11,2025-05-26,45,2025-06-06,C000064,1558876.11,0.0,,Lowest evaluated responsive bid.
+T0000013,PE02,roads,Roads package 0013,open,2508540.68,1000000,2025-07-08,2025-08-17,40,2025-09-14,C000061,2668787.03,0.0,,Lowest evaluated responsive bid.
+T0000014,PE02,roads,Roads package 0014,open,833666.88,1000000,2025-09-06,2025-10-06,30,2025-11-07,C000062,878890.2,0.0,,Lowest evaluated responsive bid.
+T0000015,PE04,health,Health package 0015,rfq,70810.74,100000,2024-08-16,2024-08-24,8,2024-09-05,C000066,73017.74,0.0,,Lowest evaluated responsive bid.
+T0000016,PE04,health,Health package 0016,open,253173.4,100000,2023-06-02,2023-06-11,9,2023-06-23,C000066,262967.37,0.0,,Lowest evaluated responsive bid.
+T0000017,PE04,health,Health package 0017,rfq,76852.58,100000,2025-11-07,2025-11-14,7,2025-12-22,C000066,84174.63,0.0,,Lowest evaluated responsive bid.
+T0000018,PE04,health,Health package 0018,rfq,69296.17,100000,2023-11-22,2023-11-27,5,2024-01-06,C000066,72746.34,0.0,,Lowest evaluated responsive bid.
+T0000019,PE04,health,Health package 0019,open,167840.99,100000,2024-10-09,2024-10-14,5,2024-11-19,C000066,172908.96,0.0,,Lowest evaluated responsive bid.
+T0000020,PE04,health,Health package 0020,open,126144.33,100000,2023-01-25,2023-02-01,7,2023-02-19,C000066,136729.24,0.0,,Lowest evaluated responsive bid.
+T0000021,PE04,health,Health package 0021,open,136777.72,100000,2025-05-26,2025-06-02,7,2025-07-09,C000066,150438.98,0.0,,Lowest evaluated responsive bid.
+T0000022,PE04,health,Health package 0022,rfq,52549.71,100000,2024-05-25,2024-06-01,7,2024-06-24,C000066,56935.9,0.0,,Lowest evaluated responsive bid.
+T0000023,PE04,health,Health package 0023,open,172850.38,100000,2025-03-30,2025-04-08,9,2025-05-05,C000066,186421.6,0.0,,Lowest evaluated responsive bid.
+T0000024,PE04,health,Health package 0024,rfq,92893.31,100000,2023-10-11,2023-10-18,7,2023-11-12,C000066,101564.58,0.0,,Lowest evaluated responsive bid.
+T0000025,PE04,health,Health package 0025,rfq,52734.0,100000,2024-06-07,2024-06-14,7,2024-07-06,C000066,53634.5,0.0,,Lowest evaluated responsive bid.
+T0000026,PE04,health,Health package 0026,open,210558.78,100000,2023-11-28,2023-12-03,5,2023-12-19,C000066,222293.68,0.0,,Lowest evaluated responsive bid.
+T0000027,PE04,health,Health package 0027,open,170157.25,100000,2025-07-10,2025-07-18,8,2025-08-01,C000066,173901.14,0.0,,Lowest evaluated responsive bid.
+T0000028,PE04,health,Health package 0028,open,182424.18,100000,2025-01-24,2025-01-31,7,2025-03-07,C000066,185611.04,0.0,,Lowest evaluated responsive bid.
+T0000029,PE04,health,Health package 0029,open,188100.61,100000,2024-07-07,2024-07-14,7,2024-08-17,C000066,195301.82,0.0,,Lowest evaluated responsive bid.
+T0000030,PE04,health,Health package 0030,rfq,56135.47,100000,2024-03-18,2024-03-23,5,2024-04-10,C000066,61567.62,0.0,,Lowest evaluated responsive bid.
+T0000031,PE05,office,Office package 0031,rfq,99785.17,100000,2024-10-01,2024-10-11,10,2024-11-12,C000067,97789.47,0.0,,Lowest evaluated responsive bid.
+T0000032,PE05,office,Office package 0032,rfq,99091.35,100000,2024-10-07,2024-10-17,10,2024-10-27,C000067,97109.53,0.0,,Lowest evaluated responsive bid.
+T0000033,PE05,office,Office package 0033,rfq,93454.19,100000,2024-10-13,2024-10-23,10,2024-11-09,C000067,91585.1,0.0,,Lowest evaluated responsive bid.
+T0000034,PE05,office,Office package 0034,rfq,99249.85,100000,2024-10-19,2024-10-26,7,2024-12-05,C000067,97264.86,0.0,,Lowest evaluated responsive bid.
+T0000035,PE03,education,Education package 0035,rfq,81450.65,100000,2023-07-21,2023-07-30,9,2023-08-29,C000068,87966.7,0.0,,Lowest evaluated responsive bid.
+T0000036,PE02,water,Water package 0036,rfq,171960.64,1000000,2024-02-02,2024-02-16,14,2024-03-25,C000072,154844.41,0.0,,Lowest evaluated responsive bid.
+T0000037,PE02,water,Water package 0037,open,655847.45,1000000,2025-01-28,2025-02-25,28,2025-03-22,C000071,639572.44,0.0,,Lowest evaluated responsive bid.
+T0000038,PE02,water,Water package 0038,rfq,175573.07,1000000,2024-02-10,2024-02-17,7,2024-03-23,C000070,176464.82,0.0,,Lowest evaluated responsive bid.
+T0000039,PE02,water,Water package 0039,rfq,369083.41,1000000,2024-02-15,2024-02-26,11,2024-03-31,C000071,334002.03,0.0,,Lowest evaluated responsive bid.
+T0000040,PE02,water,Water package 0040,open,765003.37,1000000,2024-08-27,2024-09-20,24,2024-10-30,C000071,735882.63,0.0,,Lowest evaluated responsive bid.
+T0000041,PE02,water,Water package 0041,open,617697.76,1000000,2023-04-26,2023-06-05,40,2023-06-19,C000072,654431.95,0.0,,Lowest evaluated responsive bid.
+T0000042,PE02,water,Water package 0042,open,841442.66,1000000,2025-04-30,2025-05-22,22,2025-06-23,C000071,747825.96,0.0,,Lowest evaluated responsive bid.
+T0000043,PE02,water,Water package 0043,rfq,195101.44,1000000,2023-08-20,2023-08-28,8,2023-10-06,C000070,200082.19,0.0,,Lowest evaluated responsive bid.
+T0000044,PE02,water,Water package 0044,rfq,274225.31,1000000,2025-08-15,2025-08-22,7,2025-09-10,C000070,260665.66,0.0,,Lowest evaluated responsive bid.
+T0000045,PE02,water,Water package 0045,open,648322.4,1000000,2023-12-13,2024-01-06,24,2024-01-16,C000072,650091.07,0.0,,Lowest evaluated responsive bid.
+T0000046,PE01,roads,Roads package 0046,rfq,552861.14,1000000,2025-05-10,2025-05-24,14,2025-06-09,C000041,548798.54,0.057,,Lowest evaluated responsive bid.
+T0000047,PE03,office,Office package 0047,open,186431.39,100000,2025-08-29,2025-10-08,40,2025-10-19,C000035,163090.47,0.0,,Lowest evaluated responsive bid.
+T0000048,PE03,office,Office package 0048,direct,231663.19,100000,2024-09-01,2024-09-19,18,2024-10-29,C000067,252102.2,0.031,Continuation of existing contract to ensure compatibility.,Lowest evaluated responsive bid.
+T0000049,PE04,health,Health package 0049,open,478083.34,100000,2025-05-30,2025-07-09,40,2025-07-21,C000023,469057.09,0.0,,Lowest evaluated responsive bid.
+T0000050,PE05,office,Office package 0050,open,102787.87,100000,2023-11-24,2023-12-23,29,2024-01-21,C000005,100763.29,0.0,,Lowest evaluated responsive bid.
+T0000051,PE01,roads,Roads package 0051,open,611584.67,1000000,2025-10-17,2025-11-15,29,2025-12-06,C000016,577319.61,0.0,,Lowest evaluated responsive bid.
+T0000052,PE03,office,Office package 0052,rfq,56204.0,100000,2024-05-21,2024-06-07,17,2024-07-01,C000015,55110.0,0.0,,Lowest evaluated responsive bid.
+T0000053,PE01,roads,Roads package 0053,rfq,266845.38,1000000,2024-04-18,2024-04-29,11,2024-06-02,C000001,247053.26,0.0,,Lowest evaluated responsive bid.
+T0000054,PE06,water,Water package 0054,rfq,398583.15,1000000,2024-12-17,2025-01-02,16,2025-01-21,C000027,344891.76,0.0,,Lowest evaluated responsive bid.
+T0000055,PE01,roads,Roads package 0055,rfq,367999.7,1000000,2025-10-12,2025-10-23,11,2025-11-15,C000006,335549.81,0.0,,Lowest evaluated responsive bid.
+T0000056,PE03,office,Office package 0056,open,109118.58,100000,2023-04-16,2023-05-31,45,2023-06-15,C000020,99584.54,0.056,,Lowest evaluated responsive bid.
+T0000057,PE02,roads,Roads package 0057,rfq,443857.76,1000000,2023-10-19,2023-10-30,11,2023-11-13,C000026,389191.66,0.0,,Lowest evaluated responsive bid.
+T0000058,PE01,roads,Roads package 0058,open,1429472.39,1000000,2025-03-05,2025-03-31,26,2025-04-22,C000046,1485482.09,0.0,,Lowest bid found non-responsive on technical criteria (documented).
+T0000059,PE03,education,Education package 0059,open,72544.85,100000,2024-01-30,2024-02-29,30,2024-03-28,C000054,72975.37,0.0,,Lowest evaluated responsive bid.
+T0000060,PE02,water,Water package 0060,open,1064648.33,1000000,2025-01-22,2025-02-23,32,2025-03-07,C000012,1095233.06,0.0,,Lowest bid found non-responsive on technical criteria (documented).
+T0000061,PE04,health,Health package 0061,rfq,43577.95,100000,2023-09-24,2023-10-12,18,2023-11-17,C000043,48419.38,0.0,,Lowest bid found non-responsive on technical criteria (documented).
+T0000062,PE01,roads,Roads package 0062,open,743565.55,1000000,2025-10-04,2025-11-02,29,2025-11-28,C000016,707047.78,0.0,,Lowest evaluated responsive bid.
+T0000063,PE04,health,Health package 0063,open,363294.9,100000,2025-11-02,2025-11-24,22,2025-12-24,C000018,349227.86,0.0,,Lowest evaluated responsive bid.
+T0000064,PE03,office,Office package 0064,open,142353.59,100000,2023-08-03,2023-09-13,41,2023-10-23,C000015,123750.34,0.0,,Lowest evaluated responsive bid.
+T0000065,PE05,office,Office package 0065,open,185395.38,100000,2023-03-11,2023-04-10,30,2023-04-23,C000055,161129.08,0.0,,Lowest bid found non-responsive on technical criteria (documented).
+T0000066,PE05,office,Office package 0066,open,137255.37,100000,2025-04-26,2025-05-25,29,2025-06-16,C000030,117441.85,0.087,,Lowest evaluated responsive bid.
+T0000067,PE03,education,Education package 0067,rfq,36610.27,100000,2024-12-18,2024-12-27,9,2025-01-19,C000044,31763.1,0.114,,Lowest evaluated responsive bid.
+T0000068,PE02,water,Water package 0068,open,2061444.89,1000000,2023-12-24,2024-01-27,34,2024-02-29,C000002,2146314.8,0.0,,Lowest evaluated responsive bid.
+T0000069,PE04,health,Health package 0069,open,450217.87,100000,2025-07-15,2025-08-27,43,2025-09-07,C000023,389675.73,0.0,,Lowest evaluated responsive bid.
+T0000070,PE03,office,Office package 0070,open,173947.56,100000,2025-12-07,2026-01-09,33,2026-01-29,C000005,158931.45,0.0,,Lowest evaluated responsive bid.
+T0000071,PE05,office,Office package 0071,open,99826.64,100000,2025-08-19,2025-09-09,21,2025-09-22,C000020,93316.59,0.172,,Lowest evaluated responsive bid.
+T0000072,PE01,roads,Roads package 0072,open,1543238.81,1000000,2023-10-18,2023-11-25,38,2024-01-02,C000056,1352349.59,0.0,,Lowest evaluated responsive bid.
+T0000073,PE06,water,Water package 0073,open,2217329.33,1000000,2025-02-25,2025-04-02,36,2025-04-15,C000047,1962309.6,0.0,,Lowest evaluated responsive bid.
+T0000074,PE02,roads,Roads package 0074,open,3219877.35,1000000,2024-02-24,2024-03-25,30,2024-04-23,C000021,2799242.92,0.0,,Lowest evaluated responsive bid.
+T0000075,PE06,water,Water package 0075,open,2004281.26,1000000,2023-03-05,2023-03-31,26,2023-04-23,C000037,1877269.36,0.0,,Lowest evaluated responsive bid.
+T0000076,PE01,roads,Roads package 0076,direct,1331255.0,1000000,2023-04-21,2023-05-05,14,2023-06-02,C000036,1182521.34,0.0,Continuation of existing contract to ensure compatibility.,Lowest evaluated responsive bid.
+T0000077,PE03,office,Office package 0077,open,147877.79,100000,2023-11-22,2024-01-02,41,2024-01-22,C000040,130480.42,0.0,,Lowest evaluated responsive bid.
+T0000078,PE03,education,Education package 0078,open,169489.17,100000,2025-03-19,2025-04-29,41,2025-05-16,C000054,164617.44,0.0,,Lowest evaluated responsive bid.
+T0000079,PE04,health,Health package 0079,open,328295.86,100000,2023-03-11,2023-04-08,28,2023-05-04,C000028,295605.08,0.0,,Lowest evaluated responsive bid.
+T0000080,PE02,water,Water package 0080,open,858543.08,1000000,2023-11-13,2023-12-09,26,2024-01-18,C000027,810881.25,0.0,,Lowest evaluated responsive bid.
+T0000081,PE06,water,Water package 0081,open,609265.31,1000000,2023-11-06,2023-12-10,34,2024-01-11,C000032,586309.27,0.0,,Lowest bid found non-responsive on technical criteria (documented).
+T0000082,PE02,water,Water package 0082,open,1238706.23,1000000,2023-10-18,2023-11-18,31,2023-12-06,C000027,1389628.48,0.0,,Lowest evaluated responsive bid.
+T0000083,PE06,water,Water package 0083,open,2252648.94,1000000,2024-05-11,2024-06-11,31,2024-07-15,C000022,1932464.0,0.0,,Lowest evaluated responsive bid.
+T0000084,PE01,roads,Roads package 0084,open,3369517.84,1000000,2023-08-06,2023-09-07,32,2023-10-03,C000011,3000335.94,0.0,,Lowest evaluated responsive bid.
+T0000085,PE03,office,Office package 0085,open,187590.6,100000,2025-07-24,2025-08-27,34,2025-09-26,C000010,180038.75,0.0,,Lowest bid found non-responsive on technical criteria (documented).
+T0000086,PE06,water,Water package 0086,open,1513411.84,1000000,2023-08-12,2023-09-13,32,2023-10-14,C000042,1364673.23,0.0,,Lowest evaluated responsive bid.
+T0000087,PE06,water,Water package 0087,open,1250037.08,1000000,2024-08-25,2024-09-23,29,2024-10-14,C000022,1401950.89,0.0,,Lowest evaluated responsive bid.
+T0000088,PE02,water,Water package 0088,open,902753.21,1000000,2025-09-20,2025-10-15,25,2025-11-10,C000012,787945.7,0.0,,Lowest evaluated responsive bid.
+T0000089,PE03,education,Education package 0089,open,268061.74,100000,2024-03-05,2024-04-14,40,2024-05-22,C000049,247760.19,0.0,,Lowest evaluated responsive bid.
+T0000090,PE06,water,Water package 0090,open,1720876.12,1000000,2024-08-31,2024-10-06,36,2024-10-23,C000052,1558658.26,0.034,,Lowest evaluated responsive bid.
+T0000091,PE04,health,Health package 0091,open,332934.77,100000,2023-01-14,2023-02-04,21,2023-02-14,C000023,293035.38,0.0,,Lowest evaluated responsive bid.
+T0000092,PE05,office,Office package 0092,open,173186.31,100000,2024-11-07,2024-12-01,24,2025-01-07,C000040,157217.8,0.0,,Lowest evaluated responsive bid.
+T0000093,PE06,water,Water package 0093,open,952081.8,1000000,2025-12-12,2026-01-10,29,2026-02-16,C000032,829347.14,0.0,,Lowest evaluated responsive bid.
+T0000094,PE05,office,Office package 0094,open,243948.92,100000,2025-10-05,2025-10-26,21,2025-11-06,C000010,260576.59,0.0,,Lowest bid found non-responsive on technical criteria (documented).
+T0000095,PE02,water,Water package 0095,open,1580411.2,1000000,2023-05-04,2023-06-14,41,2023-06-24,C000002,1366725.48,0.0,,Lowest evaluated responsive bid.
+T0000096,PE03,education,Education package 0096,open,317817.92,100000,2024-06-12,2024-07-21,39,2024-08-22,C000068,277088.64,0.101,,Lowest evaluated responsive bid.
+T0000097,PE04,health,Health package 0097,rfq,58986.93,100000,2025-03-03,2025-03-23,20,2025-04-04,C000038,52095.48,0.119,,Lowest evaluated responsive bid.
+T0000098,PE02,roads,Roads package 0098,open,733631.83,1000000,2023-02-06,2023-03-21,43,2023-04-15,C000011,832980.85,0.0,,Lowest evaluated responsive bid.
+T0000099,PE04,health,Health package 0099,open,549842.26,100000,2023-04-18,2023-05-24,36,2023-06-22,C000053,552910.09,0.0,,Lowest evaluated responsive bid.
+T0000100,PE01,roads,Roads package 0100,open,1628370.92,1000000,2025-06-17,2025-07-26,39,2025-08-15,C000026,1635364.77,0.0,,Lowest evaluated responsive bid.
+T0000101,PE03,office,Office package 0101,rfq,22674.35,100000,2024-11-11,2024-11-30,19,2025-01-07,C000025,21505.36,0.0,,Lowest evaluated responsive bid.
+T0000102,PE02,water,Water package 0102,open,815776.87,1000000,2023-01-04,2023-02-15,42,2023-03-21,C000022,782770.11,0.0,,Lowest evaluated responsive bid.
+T0000103,PE04,health,Health package 0103,open,330043.28,100000,2025-09-19,2025-10-22,33,2025-11-15,C000023,307809.73,0.0,,Lowest evaluated responsive bid.
+T0000104,PE05,office,Office package 0104,open,137748.77,100000,2024-12-28,2025-01-23,26,2025-02-27,C000045,143346.12,0.0,,Lowest evaluated responsive bid.
+T0000105,PE06,water,Water package 0105,open,1002640.56,1000000,2025-01-05,2025-01-29,24,2025-02-09,C000027,885026.59,0.081,,Lowest evaluated responsive bid.
+T0000106,PE02,water,Water package 0106,open,1528770.77,1000000,2024-03-13,2024-04-25,43,2024-05-19,C000007,1506660.57,0.0,,Lowest bid found non-responsive on technical criteria (documented).
+T0000107,PE04,health,Health package 0107,open,520522.74,100000,2025-03-24,2025-04-19,26,2025-05-10,C000028,461138.02,0.0,,Lowest evaluated responsive bid.
+T0000108,PE02,roads,Roads package 0108,open,895464.94,1000000,2024-06-08,2024-07-02,24,2024-07-16,C000041,853522.52,0.0,,Lowest evaluated responsive bid.
+T0000109,PE03,education,Education package 0109,open,376661.51,100000,2024-09-03,2024-09-25,22,2024-10-10,C000054,338866.33,0.04,,Lowest evaluated responsive bid.
+T0000110,PE02,roads,Roads package 0110,open,3752412.87,1000000,2025-02-03,2025-02-28,25,2025-03-20,C000031,3699547.49,0.0,,Lowest evaluated responsive bid.
+T0000111,PE02,roads,Roads package 0111,open,925898.75,1000000,2025-07-13,2025-08-18,36,2025-08-31,C000011,844673.9,0.0,,Lowest evaluated responsive bid.
+T0000112,PE03,office,Office package 0112,open,226566.71,100000,2023-08-22,2023-09-25,34,2023-10-13,C000020,203383.42,0.0,,Lowest evaluated responsive bid.
+T0000113,PE02,roads,Roads package 0113,open,615868.18,1000000,2024-08-15,2024-09-14,30,2024-09-29,C000001,632400.45,0.0,,Lowest evaluated responsive bid.
+T0000114,PE03,office,Office package 0114,rfq,17812.59,100000,2025-04-17,2025-04-28,11,2025-05-13,C000045,15705.48,0.0,,Lowest evaluated responsive bid.
+T0000115,PE02,roads,Roads package 0115,open,2546624.95,1000000,2024-01-29,2024-03-05,36,2024-03-17,C000031,2518756.07,0.0,,Lowest evaluated responsive bid.
+T0000116,PE01,roads,Roads package 0116,open,3663309.87,1000000,2025-09-03,2025-09-27,24,2025-10-18,C000026,3120611.74,0.0,,Lowest evaluated responsive bid.
+T0000117,PE06,water,Water package 0117,open,2068858.48,1000000,2024-10-19,2024-11-17,29,2024-12-14,C000007,1775649.77,0.0,,Lowest evaluated responsive bid.
+T0000118,PE01,roads,Roads package 0118,open,611767.72,1000000,2024-02-04,2024-02-29,25,2024-03-27,C000041,542982.09,0.0,,Lowest evaluated responsive bid.
+T0000119,PE05,office,Office package 0119,open,216383.84,100000,2023-10-29,2023-12-11,43,2024-01-03,C000015,187060.13,0.0,,Lowest evaluated responsive bid.
+T0000120,PE05,office,Office package 0120,open,205240.45,100000,2023-04-20,2023-06-01,42,2023-06-11,C000030,175402.97,0.0,,Lowest evaluated responsive bid.
+T0000121,PE02,roads,Roads package 0121,open,1827729.88,1000000,2025-03-24,2025-04-15,22,2025-05-04,C000021,1627048.21,0.0,,Lowest bid found non-responsive on technical criteria (documented).
+T0000122,PE01,roads,Roads package 0122,open,1553326.0,1000000,2023-12-08,2024-01-21,44,2024-02-17,C000006,1593698.28,0.0,,Lowest evaluated responsive bid.
+T0000123,PE03,office,Office package 0123,open,155608.53,100000,2024-03-29,2024-04-25,27,2024-05-21,C000030,162010.63,0.0,,Lowest bid found non-responsive on technical criteria (documented).
+T0000124,PE05,office,Office package 0124,direct,242644.6,100000,2025-03-22,2025-04-02,11,2025-04-21,C000030,221999.87,0.0,Emergency repair following flood damage.,Lowest evaluated responsive bid.
+T0000125,PE02,water,Water package 0125,rfq,283732.72,1000000,2023-02-14,2023-03-01,15,2023-03-18,C000027,299848.24,0.0,,Lowest evaluated responsive bid.
+T0000126,PE06,water,Water package 0126,open,1129366.69,1000000,2024-12-22,2025-02-01,41,2025-03-12,C000047,1002900.99,0.0,,Lowest evaluated responsive bid.
+T0000127,PE06,water,Water package 0127,direct,1120629.44,1000000,2023-07-31,2023-08-09,9,2023-09-01,C000042,1215136.41,0.0,Proprietary spare parts from OEM.,Lowest evaluated responsive bid.
+T0000128,PE03,education,Education package 0128,open,161131.49,100000,2025-07-15,2025-08-14,30,2025-08-29,C000068,137397.6,0.0,,Lowest evaluated responsive bid.
+T0000129,PE05,office,Office package 0129,open,202314.54,100000,2025-06-11,2025-07-17,36,2025-08-05,C000060,188501.27,0.076,,Lowest evaluated responsive bid.
+T0000130,PE05,office,Office package 0130,open,138316.9,100000,2025-06-14,2025-07-11,27,2025-08-20,C000005,123044.85,0.0,,Lowest evaluated responsive bid.
+T0000131,PE04,health,Health package 0131,open,252951.68,100000,2024-12-04,2025-01-03,30,2025-02-04,C000028,222606.3,0.0,,Lowest evaluated responsive bid.
+T0000132,PE03,office,Office package 0132,open,160726.5,100000,2025-12-09,2026-01-21,43,2026-02-13,C000045,140485.89,0.0,,Lowest evaluated responsive bid.
+T0000133,PE01,roads,Roads package 0133,open,1400276.7,1000000,2023-01-09,2023-02-02,24,2023-02-16,C000001,1339235.02,0.0,,Lowest evaluated responsive bid.
+T0000134,PE02,roads,Roads package 0134,rfq,358878.08,1000000,2023-06-05,2023-06-21,16,2023-07-03,C000041,329366.04,0.0,,Lowest evaluated responsive bid.
+T0000135,PE03,education,Education package 0135,direct,188187.79,100000,2025-02-28,2025-03-10,10,2025-03-21,C000019,226995.17,0.044,Continuation of existing contract to ensure compatibility.,Lowest evaluated responsive bid.
+T0000136,PE02,roads,Roads package 0136,open,1430475.62,1000000,2025-07-21,2025-08-23,33,2025-09-07,C000031,1228736.5,0.0,,Lowest evaluated responsive bid.
+T0000137,PE01,roads,Roads package 0137,open,1735100.81,1000000,2025-01-13,2025-02-07,25,2025-02-19,C000051,1713918.04,0.044,,Lowest evaluated responsive bid.
+T0000138,PE02,water,Water package 0138,open,1430435.63,1000000,2023-09-19,2023-11-01,43,2023-11-19,C000042,1332848.73,0.0,,Lowest evaluated responsive bid.
+T0000139,PE05,office,Office package 0139,open,150190.43,100000,2025-01-23,2025-02-15,23,2025-03-19,C000045,143907.01,0.0,,Lowest evaluated responsive bid.
+T0000140,PE02,roads,Roads package 0140,open,1453889.35,1000000,2023-08-12,2023-09-22,41,2023-10-30,C000041,1286948.03,0.0,,Lowest evaluated responsive bid.
+T0000141,PE06,water,Water package 0141,direct,2351339.26,1000000,2023-12-28,2024-01-14,17,2024-02-15,C000052,2750494.24,0.0,Continuation of existing contract to ensure compatibility.,Lowest evaluated responsive bid.
+T0000142,PE06,water,Water package 0142,open,733789.35,1000000,2025-03-31,2025-05-10,40,2025-05-25,C000007,688057.21,0.0,,Lowest evaluated responsive bid.
+T0000143,PE04,health,Health package 0143,open,459036.62,100000,2023-11-16,2023-12-15,29,2024-01-23,C000023,423171.46,0.0,,Lowest evaluated responsive bid.
+T0000144,PE04,health,Health package 0144,open,562691.34,100000,2023-08-18,2023-10-01,44,2023-10-23,C000048,486644.91,0.0,,Lowest evaluated responsive bid.
+T0000145,PE06,water,Water package 0145,open,810739.38,1000000,2023-07-04,2023-08-11,38,2023-08-29,C000027,828040.69,0.0,,Lowest bid found non-responsive on technical criteria (documented).
+T0000146,PE02,roads,Roads package 0146,open,3885303.82,1000000,2024-04-28,2024-05-26,28,2024-06-27,C000046,3514728.55,0.0,,Lowest evaluated responsive bid.
+T0000147,PE02,roads,Roads package 0147,open,2182680.78,1000000,2025-06-30,2025-08-04,35,2025-09-09,C000016,2003012.31,0.0,,Lowest evaluated responsive bid.
+T0000148,PE04,health,Health package 0148,direct,86397.39,100000,2024-08-15,2024-08-23,8,2024-09-24,C000038,80571.88,0.0,Emergency repair following flood damage.,Lowest evaluated responsive bid.
+T0000149,PE03,office,Office package 0149,open,241018.15,100000,2023-11-27,2024-01-07,41,2024-02-01,C000050,209259.68,0.0,,Lowest evaluated responsive bid.
+T0000150,PE04,health,Health package 0150,direct,130089.0,100000,2024-10-21,2024-11-08,18,2024-11-26,C000008,144112.94,0.0,Continuation of existing contract to ensure compatibility.,Lowest evaluated responsive bid.
+T0000151,PE06,water,Water package 0151,direct,333640.29,1000000,2023-02-26,2023-03-13,15,2023-04-19,C000032,395641.15,0.0,Proprietary spare parts from OEM.,Lowest evaluated responsive bid.
+T0000152,PE06,water,Water package 0152,rfq,390116.14,1000000,2024-09-27,2024-10-14,17,2024-11-22,C000032,389105.86,0.0,,Lowest bid found non-responsive on technical criteria (documented).
+T0000153,PE06,water,Water package 0153,open,2277210.08,1000000,2024-03-19,2024-04-20,32,2024-04-30,C000012,2061604.03,0.0,,Lowest evaluated responsive bid.
+T0000154,PE01,roads,Roads package 0154,open,786858.0,1000000,2023-05-28,2023-07-02,35,2023-07-25,C000026,720593.47,0.0,,Lowest evaluated responsive bid.
+T0000155,PE05,office,Office package 0155,open,243797.33,100000,2023-06-16,2023-07-27,41,2023-08-10,C000055,236194.63,0.0,,Lowest evaluated responsive bid.
+T0000156,PE03,office,Office package 0156,open,136357.78,100000,2023-02-27,2023-04-03,35,2023-04-25,C000055,123917.48,0.0,,Lowest evaluated responsive bid.
+T0000157,PE03,education,Education package 0157,open,102489.17,100000,2024-02-20,2024-03-19,28,2024-04-15,C000019,91008.93,0.0,,Lowest evaluated responsive bid.
+T0000158,PE05,office,Office package 0158,open,186011.98,100000,2023-06-14,2023-07-28,44,2023-08-23,C000040,199074.7,0.0,,Lowest evaluated responsive bid.
+T0000159,PE01,roads,Roads package 0159,open,3363290.23,1000000,2025-03-13,2025-04-09,27,2025-05-03,C000046,3361089.58,0.0,,Lowest bid found non-responsive on technical criteria (documented).
+T0000160,PE03,education,Education package 0160,open,287359.19,100000,2025-05-22,2025-07-06,45,2025-08-08,C000049,257440.61,0.0,,Lowest evaluated responsive bid.
+T0000161,PE06,water,Water package 0161,open,2090231.61,1000000,2023-09-09,2023-10-22,43,2023-11-15,C000027,1805246.47,0.0,,Lowest evaluated responsive bid.
+T0000162,PE01,roads,Roads package 0162,open,675910.65,1000000,2023-02-12,2023-03-13,29,2023-04-09,C000011,652939.14,0.0,,Lowest evaluated responsive bid.
+T0000163,PE06,water,Water package 0163,direct,2379601.21,1000000,2023-01-29,2023-02-05,7,2023-02-17,C000012,2486369.45,0.0,Proprietary spare parts from OEM.,Lowest evaluated responsive bid.
+T0000164,PE02,water,Water package 0164,open,2130953.12,1000000,2023-11-21,2023-12-30,39,2024-01-23,C000007,1848521.71,0.0,,Lowest evaluated responsive bid.
+T0000165,PE04,health,Health package 0165,open,202328.67,100000,2024-11-18,2024-12-27,39,2025-01-22,C000058,177117.13,0.0,,Lowest evaluated responsive bid.
+T0000166,PE05,office,Office package 0166,open,248108.17,100000,2023-03-11,2023-04-05,25,2023-05-06,C000035,220716.29,0.0,,Lowest evaluated responsive bid.
+T0000167,PE01,roads,Roads package 0167,open,3861089.7,1000000,2024-11-30,2024-12-28,28,2025-02-01,C000026,3375285.89,0.0,,Lowest evaluated responsive bid.
+T0000168,PE02,water,Water package 0168,direct,504403.18,1000000,2024-02-25,2024-03-05,9,2024-04-02,C000052,520166.16,0.0,Proprietary spare parts from OEM.,Lowest evaluated responsive bid.
+T0000169,PE01,roads,Roads package 0169,open,1380585.54,1000000,2024-09-23,2024-10-29,36,2024-11-18,C000006,1341507.93,0.0,,Lowest evaluated responsive bid.
+T0000170,PE02,water,Water package 0170,open,2259669.01,1000000,2023-02-17,2023-03-12,23,2023-04-16,C000032,2010716.66,0.025,,Lowest evaluated responsive bid.
+T0000171,PE05,office,Office package 0171,open,182001.46,100000,2023-01-11,2023-02-22,42,2023-03-29,C000055,170151.45,0.0,,Lowest evaluated responsive bid.
+T0000172,PE03,education,Education package 0172,rfq,37117.5,100000,2025-04-28,2025-05-05,7,2025-06-13,C000029,37482.11,0.0,,Lowest evaluated responsive bid.
+T0000173,PE03,office,Office package 0173,rfq,21556.25,100000,2024-11-05,2024-11-22,17,2024-12-20,C000067,21408.33,0.0,,Lowest evaluated responsive bid.
+T0000174,PE05,office,Office package 0174,open,167080.96,100000,2024-11-08,2024-12-23,45,2025-01-13,C000005,160615.78,0.086,,Lowest evaluated responsive bid.
+T0000175,PE02,roads,Roads package 0175,open,1753165.5,1000000,2023-07-04,2023-08-17,44,2023-09-23,C000006,1633907.21,0.0,,Lowest evaluated responsive bid.
+T0000176,PE02,roads,Roads package 0176,open,1565605.55,1000000,2024-05-11,2024-06-02,22,2024-06-19,C000036,1371745.33,0.0,,Lowest evaluated responsive bid.
+T0000177,PE05,office,Office package 0177,open,107202.43,100000,2025-02-08,2025-03-16,36,2025-04-01,C000025,101491.93,0.0,,Lowest evaluated responsive bid.
+T0000178,PE05,office,Office package 0178,open,123523.83,100000,2024-07-01,2024-07-28,27,2024-08-25,C000025,105189.54,0.0,,Lowest evaluated responsive bid.
+T0000179,PE01,roads,Roads package 0179,open,3442550.49,1000000,2025-01-08,2025-02-19,42,2025-03-13,C000056,2939147.21,0.0,,Lowest evaluated responsive bid.
+T0000180,PE01,roads,Roads package 0180,open,1523274.14,1000000,2025-03-23,2025-04-26,34,2025-05-28,C000051,1317860.02,0.0,,Lowest evaluated responsive bid.
+T0000181,PE01,roads,Roads package 0181,rfq,431194.95,1000000,2024-10-10,2024-10-25,15,2024-11-20,C000036,366959.07,0.0,,Lowest evaluated responsive bid.
+T0000182,PE01,roads,Roads package 0182,open,3398400.12,1000000,2023-06-08,2023-07-10,32,2023-07-28,C000011,3155681.79,0.0,,Lowest bid found non-responsive on technical criteria (documented).
+T0000183,PE01,roads,Roads package 0183,open,2830541.48,1000000,2025-07-18,2025-08-28,41,2025-09-07,C000056,2766305.47,0.0,,Lowest evaluated responsive bid.
+T0000184,PE02,water,Water package 0184,open,1780113.28,1000000,2025-02-11,2025-03-14,31,2025-04-07,C000007,1548349.67,0.0,,Lowest evaluated responsive bid.
+T0000185,PE05,office,Office package 0185,open,122579.78,100000,2025-08-21,2025-10-05,45,2025-10-23,C000010,107722.87,0.0,,Lowest evaluated responsive bid.
+T0000186,PE03,office,Office package 0186,open,215564.8,100000,2024-12-13,2025-01-23,41,2025-03-01,C000045,198091.31,0.0,,Lowest evaluated responsive bid.
+T0000187,PE01,roads,Roads package 0187,open,1679732.83,1000000,2025-05-26,2025-06-25,30,2025-07-19,C000006,1630953.84,0.0,,Lowest evaluated responsive bid.
+T0000188,PE06,water,Water package 0188,open,1205889.27,1000000,2025-09-06,2025-09-27,21,2025-10-24,C000002,1139627.72,0.0,,Lowest evaluated responsive bid.
+T0000189,PE02,roads,Roads package 0189,open,2389562.4,1000000,2023-04-29,2023-05-29,30,2023-06-27,C000021,2118422.3,0.0,,Lowest evaluated responsive bid.
+T0000190,PE03,education,Education package 0190,open,291200.59,100000,2025-02-08,2025-03-12,32,2025-03-24,C000024,269839.27,0.0,,Lowest evaluated responsive bid.
+T0000191,PE06,water,Water package 0191,open,924208.85,1000000,2023-05-25,2023-06-17,23,2023-07-11,C000057,795037.48,0.0,,Lowest evaluated responsive bid.
+T0000192,PE04,health,Health package 0192,open,98463.11,100000,2023-01-20,2023-02-12,23,2023-03-21,C000023,88345.79,0.03,,Lowest evaluated responsive bid.
+T0000193,PE02,water,Water package 0193,rfq,279261.03,1000000,2024-02-14,2024-02-22,8,2024-03-13,C000002,242967.75,0.0,,Lowest evaluated responsive bid.
+T0000194,PE04,health,Health package 0194,open,405093.73,100000,2024-09-03,2024-10-09,36,2024-11-10,C000018,352773.0,0.0,,Lowest evaluated responsive bid.
+T0000195,PE05,office,Office package 0195,open,96506.22,100000,2024-11-30,2025-01-04,35,2025-01-23,C000030,97815.94,0.0,,Lowest evaluated responsive bid.
+T0000196,PE02,roads,Roads package 0196,open,3259231.09,1000000,2025-07-20,2025-08-15,26,2025-09-09,C000056,2834179.2,0.0,,Lowest evaluated responsive bid.
+T0000197,PE02,water,Water package 0197,open,2034532.52,1000000,2025-12-30,2026-02-11,43,2026-03-21,C000007,1770296.21,0.0,,Lowest evaluated responsive bid.
+T0000198,PE04,health,Health package 0198,open,109805.4,100000,2023-04-27,2023-05-26,29,2023-06-15,C000023,124385.0,0.0,,Lowest evaluated responsive bid.
+T0000199,PE05,office,Office package 0199,rfq,44759.27,100000,2024-04-17,2024-05-05,18,2024-05-20,C000035,42044.44,0.0,,Lowest evaluated responsive bid.
+T0000200,PE04,health,Health package 0200,open,413765.96,100000,2023-08-23,2023-09-21,29,2023-10-28,C000018,354642.44,0.0,,Lowest evaluated responsive bid.

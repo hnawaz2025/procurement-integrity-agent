@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.pytest_cache/
+.ruff_cache/
+frontend/node_modules/
+frontend/dist/
+audit/
+data/scale_*/
+evals/results/latest_*.json
+.DS_Store

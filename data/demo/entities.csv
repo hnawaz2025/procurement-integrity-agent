@@ -1,0 +1,7 @@
+entity_id,name,sectors
+PE01,Ministry of Public Works,roads
+PE02,Rural Roads Authority,roads|water
+PE03,Ministry of Education,education|office
+PE04,Ministry of Health - Central Medical Stores,health
+PE05,National Statistics Office,office
+PE06,Water and Sanitation Agency,water

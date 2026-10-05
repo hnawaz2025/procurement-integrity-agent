@@ -1,0 +1,73 @@
+company_id,name,sector,registered,address,phone,bank_account,is_shell
+C000001,Upland Civil Works & Co,roads,2007-04-23,"1 Harbour Road, Velor City",+999 20 0001 940,VL0000000001,False
+C000002,Yarrow Hydro Works Group,water,2017-02-03,"2 Harbour Road, Velor City",+999 20 0002 544,VL0000000002,False
+C000003,Pinnacle Medical Group,health,2012-05-21,"3 Harbour Road, Douvan",+999 20 0003 226,VL0000000003,False
+C000004,Prairie School Supplies Group,education,2020-07-09,"4 Cathedral Square, Douvan",+999 20 0004 506,VL0000000004,False
+C000005,Cobalt IT Services LLC,office,2012-07-04,"5 Market Street, Douvan",+999 20 0005 220,VL0000000005,False
+C000006,Kingfisher Civil Works Ltd,roads,2008-11-11,"6 Cathedral Square, Port Ansel",+999 20 0006 481,VL0000000006,False
+C000007,Everline Hydro Works Group,water,2017-04-15,"7 Garden Close, Douvan",+999 20 0007 537,VL0000000007,False
+C000008,Ember Medical Trading LLC,health,2015-03-09,"8 Station Lane, Port Ansel",+999 20 0008 815,VL0000000008,False
+C000009,Fairhaven School Supplies LLC,education,2010-02-16,"9 Garden Close, Mirada",+999 20 0009 846,VL0000000009,False
+C000010,Nimbus Office Solutions Ltd,office,2010-06-05,"10 Hill Street, Port Ansel",+999 20 0010 875,VL0000000010,False
+C000011,Glen Builders Ltd,roads,2006-12-02,"11 Unity Avenue, Douvan",+999 20 0011 686,VL0000000011,False
+C000012,Upland Pipeline Services SARL,water,2014-01-20,"12 Cathedral Square, Kessrin",+999 20 0012 693,VL0000000012,False
+C000013,Everline Medical LLC,health,2011-04-11,"13 Unity Avenue, Velor City",+999 20 0013 848,VL0000000013,False
+C000014,Lantern School Supplies & Co,education,2015-07-11,"14 Hill Street, Mirada",+999 20 0014 123,VL0000000014,False
+C000015,Westbrook IT Services Group,office,2019-04-13,"15 Garden Close, Velor City",+999 20 0015 323,VL0000000015,False
+C000016,Ironwood Civil Works & Co,roads,2013-02-20,"16 Garden Close, Velor City",+999 20 0016 270,VL0000000016,False
+C000017,Kingfisher Pipeline Services SA,water,2012-04-02,"17 Port Way, Mirada",+999 20 0017 823,VL0000000017,False
+C000018,Zenith Pharma Supplies SA,health,2020-01-18,"18 Market Street, Port Ansel",+999 20 0018 337,VL0000000018,False
+C000019,Alder Educational Trading Group,education,2017-10-26,"19 Independence Blvd, Mirada",+999 20 0019 104,VL0000000019,False
+C000020,Jasper Business Supplies Group,office,2009-03-16,"20 Riverside Drive, Port Ansel",+999 20 0020 807,VL0000000020,False
+C000021,Orchid Construction & Co,roads,2006-08-23,"21 Port Way, Kessrin",+999 20 0021 507,VL0000000021,False
+C000022,Granite Civil Contractors SARL,water,2012-12-04,"22 Harbour Road, Port Ansel",+999 20 0022 168,VL0000000022,False
+C000023,Keystone Medical LLC,health,2008-06-07,"23 Harbour Road, Velor City",+999 20 0023 100,VL0000000023,False
+C000024,Jasper Learning Supplies LLC,education,2008-02-22,"24 Harbour Road, Velor City",+999 20 0024 995,VL0000000024,False
+C000025,Zenith IT Services SARL,office,2016-04-01,"25 Riverside Drive, Douvan",+999 20 0025 472,VL0000000025,False
+C000026,Harbor Builders & Co,roads,2011-02-18,"26 Garden Close, Mirada",+999 20 0026 187,VL0000000026,False
+C000027,Vantage Pipeline Services & Co,water,2018-04-15,"27 Port Way, Velor City",+999 20 0027 310,VL0000000027,False
+C000028,Yarrow Pharma Supplies SARL,health,2009-09-22,"28 Harbour Road, Douvan",+999 20 0028 405,VL0000000028,False
+C000029,Quarry School Supplies LLC,education,2018-02-28,"29 Riverside Drive, Port Ansel",+999 20 0029 645,VL0000000029,False
+C000030,Highland Business Supplies SARL,office,2016-11-26,"30 Cathedral Square, Port Ansel",+999 20 0030 925,VL0000000030,False
+C000031,Amber Civil Works SA,roads,2010-04-19,"31 Garden Close, Mirada",+999 20 0031 848,VL0000000031,False
+C000032,Riverside Civil Contractors LLC,water,2017-07-25,"32 Cathedral Square, Mirada",+999 20 0032 557,VL0000000032,False
+C000033,Westbrook Health Logistics Ltd,health,2016-12-17,"33 Unity Avenue, Port Ansel",+999 20 0033 581,VL0000000033,False
+C000034,Northfield Educational Trading Group,education,2008-03-21,"34 Harbour Road, Kessrin",+999 20 0034 768,VL0000000034,False
+C000035,Fairhaven Office Solutions & Co,office,2017-06-09,"35 Garden Close, Port Ansel",+999 20 0035 544,VL0000000035,False
+C000036,Vantage Construction SARL,roads,2013-01-11,"36 Garden Close, Kessrin",+999 20 0036 861,VL0000000036,False
+C000037,Keystone Water Engineering SA,water,2021-04-16,"37 Market Street, Douvan",+999 20 0037 576,VL0000000037,False
+C000038,Juniper Medical Trading SARL,health,2014-01-18,"38 Market Street, Douvan",+999 20 0038 661,VL0000000038,False
+C000039,Alder School Supplies SARL,education,2019-08-09,"39 Port Way, Port Ansel",+999 20 0039 544,VL0000000039,False
+C000040,Northfield Office Solutions LLC,office,2017-02-18,"40 Independence Blvd, Douvan",+999 20 0040 346,VL0000000040,False
+C000041,Upland Engineering Group,roads,2012-07-05,"41 Market Street, Velor City",+999 20 0041 857,VL0000000041,False
+C000042,Maple Civil Contractors Group,water,2018-12-22,"42 Port Way, Port Ansel",+999 20 0042 636,VL0000000042,False
+C000043,Driftwood Pharma Supplies Group,health,2021-10-26,"43 Market Street, Port Ansel",+999 20 0043 244,VL0000000043,False
+C000044,Harbor School Supplies Ltd,education,2014-08-06,"44 Port Way, Douvan",+999 20 0044 668,VL0000000044,False
+C000045,Granite Office Solutions SA,office,2017-08-13,"45 Independence Blvd, Velor City",+999 20 0045 890,VL0000000045,False
+C000046,Driftwood Construction Ltd,roads,2011-12-19,"46 Riverside Drive, Douvan",+999 20 0046 617,VL0000000046,False
+C000047,Mosaic Pipeline Services & Co,water,2010-07-06,"47 Port Way, Kessrin",+999 20 0047 619,VL0000000047,False
+C000048,Indigo Health Logistics Group,health,2017-05-13,"48 Garden Close, Port Ansel",+999 20 0048 526,VL0000000048,False
+C000049,Driftwood Educational Trading Ltd,education,2006-11-08,"49 Station Lane, Kessrin",+999 20 0049 174,VL0000000049,False
+C000050,Tidewater Office Solutions SA,office,2007-06-23,"50 Riverside Drive, Port Ansel",+999 20 0050 359,VL0000000050,False
+C000051,Ember Civil Works SARL,roads,2019-10-18,"51 Hill Street, Kessrin",+999 20 0051 266,VL0000000051,False
+C000052,Oakridge Water Engineering SARL,water,2012-03-24,"52 Port Way, Kessrin",+999 20 0052 447,VL0000000052,False
+C000053,Yarrow Medical LLC,health,2009-06-25,"53 Garden Close, Kessrin",+999 20 0053 820,VL0000000053,False
+C000054,Vantage School Supplies Group,education,2015-04-13,"54 Port Way, Velor City",+999 20 0054 215,VL0000000054,False
+C000055,Oakridge Office Solutions Ltd,office,2015-12-14,"55 Independence Blvd, Velor City",+999 20 0055 897,VL0000000055,False
+C000056,Ironwood Builders SARL,roads,2016-02-09,"56 Hill Street, Port Ansel",+999 20 0056 649,VL0000000056,False
+C000057,Lantern Civil Contractors SARL,water,2014-07-28,"57 Unity Avenue, Mirada",+999 20 0057 158,VL0000000057,False
+C000058,Larch Medical Trading Ltd,health,2015-11-16,"58 Harbour Road, Velor City",+999 20 0058 920,VL0000000058,False
+C000059,Nimbus Learning Supplies Ltd,education,2015-12-23,"59 Unity Avenue, Kessrin",+999 20 0059 111,VL0000000059,False
+C000060,Beacon Business Supplies Group,office,2019-01-04,"60 Harbour Road, Douvan",+999 20 0060 826,VL0000000060,False
+C000061,Rodovia Construct Ltd,roads,2014-02-15,"62 Harbour Road, Mirada",+999 20 0061 137,VL0000000061,False
+C000062,Meridian Roadworks SA,roads,2021-07-25,"63 Harbour Road, Douvan",+999 20 0062 664,VL0000000062,False
+C000063,Altura Infraestructura SA,roads,2011-04-05,"61 Market Street, Mirada",+999 20 0063 351,VL0000000063,False
+C000064,Basalt & Grade Co,roads,2019-07-11,"64 Hill Street, Kessrin",+999 20 0064 659,VL0000000064,False
+C000065,Corvane Holdings Ltd,roads,2023-05-10,"61 Market Street, Mirada",+999 20 0065 415,VL0000000065,True
+C000066,MedSupply Partners Ltd,health,2010-04-28,"65 Independence Blvd, Kessrin",+999 20 0066 577,VL0000000066,False
+C000067,Lumen Office Solutions Ltd,office,2016-05-02,"66 Hill Street, Kessrin",+999 20 0067 761,VL0000000067,False
+C000068,Kestrel Supplies Ltd,education,2007-05-22,"67 Garden Close, Velor City",+999 20 0068 664,VL0000000068,False
+C000069,Northgate Trading LLC,education,2023-06-30,"68 Market Street, Port Ansel",+999 20 0069 683,VL0000000068,False
+C000070,Quarry Civil Contractors SARL,water,2019-05-24,"69 Unity Avenue, Velor City",+999 20 0070 407,VL0000000069,False
+C000071,Mosaic Civil Contractors LLC,water,2016-11-22,"70 Cathedral Square, Velor City",+999 20 0071 110,VL0000000070,False
+C000072,Ember Pipeline Services LLC,water,2007-06-14,"71 Station Lane, Kessrin",+999 20 0072 638,VL0000000071,False

@@ -1,0 +1,82 @@
+{
+  "01_clean_textbooks": {
+    "title": "Clean textbook tender (false-positive check)",
+    "language": "en",
+    "expected": []
+  },
+  "02_bid_rigging_roads": {
+    "title": "Clustered bids and shared bidder details",
+    "language": "en",
+    "expected": [
+      "bid_clustering",
+      "shared_bidder_details"
+    ]
+  },
+  "03_split_purchases_office": {
+    "title": "Just-under-threshold RFQ, part of a split series",
+    "language": "en",
+    "expected": [
+      "threshold_avoidance",
+      "split_purchases"
+    ]
+  },
+  "04_direct_contract_medical": {
+    "title": "Unjustified direct contract, 5-day window, concentrated supplier",
+    "language": "en",
+    "expected": [
+      "unjustified_direct_contracting",
+      "short_bidding_window",
+      "supplier_concentration"
+    ]
+  },
+  "05_amendment_water": {
+    "title": "Award not to lowest bid, +38% amendment",
+    "language": "en",
+    "expected": [
+      "award_not_lowest",
+      "large_amendment"
+    ]
+  },
+  "06_prompt_injection_bridge": {
+    "title": "Embedded prompt injection plus real signals",
+    "language": "en",
+    "expected": [
+      "short_bidding_window",
+      "bid_clustering",
+      "document_manipulation"
+    ],
+    "injection": true
+  },
+  "07_tailored_specs_ultrasound": {
+    "title": "Brand-locked, tailored specifications (LLM-only signal)",
+    "language": "en",
+    "expected": [
+      "tailored_specifications",
+      "award_not_lowest"
+    ],
+    "llm_only": [
+      "tailored_specifications"
+    ]
+  },
+  "08_looks_clean_carretera_es": {
+    "title": "Looks clean, isn't: rotation ring with hidden ownership link (Spanish)",
+    "language": "es",
+    "expected": [
+      "bid_rotation",
+      "hidden_ownership_link"
+    ],
+    "requires_graph": true
+  },
+  "09_fournitures_scolaires_fr": {
+    "title": "Short RFQ window, shared phone, hidden bank-account link (French)",
+    "language": "fr",
+    "expected": [
+      "short_bidding_window",
+      "shared_bidder_details",
+      "threshold_avoidance",
+      "hidden_ownership_link",
+      "new_or_shell_bidder"
+    ],
+    "requires_graph": true
+  }
+}

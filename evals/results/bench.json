@@ -1,0 +1,50 @@
+{
+  "runs": [
+    {
+      "tenders": 1000,
+      "bids": 4319,
+      "companies": 262,
+      "load_s": 0.02,
+      "screen_s": 0.048,
+      "graph_s": 0.005,
+      "patterns_s": 0.037,
+      "leads": 40,
+      "lead_rate": 0.04,
+      "planted_tenders": 35,
+      "planted_recall": 1.0,
+      "precision_at_100": 0.875,
+      "peak_rss_mb": 88
+    },
+    {
+      "tenders": 10000,
+      "bids": 43766,
+      "companies": 2515,
+      "load_s": 0.11,
+      "screen_s": 0.174,
+      "graph_s": 0.034,
+      "patterns_s": 0.124,
+      "leads": 40,
+      "lead_rate": 0.004,
+      "planted_tenders": 35,
+      "planted_recall": 1.0,
+      "precision_at_100": 0.875,
+      "peak_rss_mb": 124
+    },
+    {
+      "tenders": 100000,
+      "bids": 438603,
+      "companies": 25150,
+      "load_s": 1.0,
+      "screen_s": 2.31,
+      "graph_s": 0.425,
+      "patterns_s": 1.726,
+      "leads": 409,
+      "lead_rate": 0.0041,
+      "planted_tenders": 350,
+      "planted_recall": 1.0,
+      "precision_at_100": 1.0,
+      "peak_rss_mb": 581
+    }
+  ],
+  "machine": "darwin"
+}
