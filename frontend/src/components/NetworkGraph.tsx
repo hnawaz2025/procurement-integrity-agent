@@ -1,5 +1,6 @@
-import { useEffect, useMemo, useRef, useState } from 'react'
+import { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react'
 import ForceGraph2D, { type ForceGraphMethods } from 'react-force-graph-2d'
+import { forceCollide } from 'd3-force'
 import { getJSON } from '../api'
 import { Empty } from './ui'
 
@@ -23,11 +24,18 @@ export default function NetworkGraph({ entities, highlight }: { entities: string
     if (wrap.current) ro.observe(wrap.current)
     return () => ro.disconnect()
   }, [])
-  useEffect(() => {
+  useLayoutEffect(() => {
     const f = fg.current
     if (!f || !data) return
-    f.d3Force('charge')?.strength(-260)
-    f.d3Force('link')?.distance(55)
+    // spread nodes so labels don't collide: stronger repulsion, longer links, label-sized collision radius
+    f.d3Force('charge')?.strength(-420)
+    f.d3Force('link')?.distance(80)
+    f.d3Force('collide', forceCollide(34))
+    f.d3ReheatSimulation()
+    // fit once the warm-up layout exists, and again after the short cool-down
+    const t1 = setTimeout(() => fg.current?.zoomToFit(0, 50), 60)
+    const t2 = setTimeout(() => fg.current?.zoomToFit(300, 50), 900)
+    return () => { clearTimeout(t1); clearTimeout(t2) }
   }, [data])
   // labels on suspicious path, e.g. "company: Rodovia Construct Ltd"
   const hot = useMemo(() => new Set(highlight.flat().map(s => s.split(': ').slice(1).join(': '))), [highlight])
@@ -40,8 +48,8 @@ export default function NetworkGraph({ entities, highlight }: { entities: string
   return (
     <div>
       <div ref={wrap} className="overflow-hidden rounded-lg border border-line bg-surface-2">
-        <ForceGraph2D ref={fg} graphData={data} width={w} height={400} cooldownTicks={120}
-          onEngineStop={() => fg.current?.zoomToFit(400, 60)}
+        <ForceGraph2D ref={fg} graphData={data} width={w} height={440} warmupTicks={250} cooldownTicks={40}
+          onEngineStop={() => fg.current?.zoomToFit(300, 50)}
           nodeRelSize={5} linkColor={(l: GLink) => l.rel.startsWith('co-bid') ? 'rgba(42,120,214,.35)' : dark ? '#55554f' : '#c9ccd2'}
           linkWidth={(l: GLink) => l.rel.startsWith('co-bid') ? 1 : 1.5}
           linkLineDash={(l: GLink) => l.rel.startsWith('co-bid') ? [3, 3] : null}
@@ -54,8 +62,12 @@ export default function NetworkGraph({ entities, highlight }: { entities: string
             ctx.fillStyle = COLOR[n.kind] ?? '#888'; ctx.fill()
             ctx.lineWidth = 2 / scale; ctx.strokeStyle = dark ? '#1a1a19' : '#fff'; ctx.stroke()
             if (n.kind === 'company' || n.kind === 'shell' || n.kind === 'person' || isHot(n)) {
-              ctx.font = `${11 / scale}px Inter, sans-serif`; ctx.textAlign = 'center'
-              ctx.fillStyle = dark ? '#f5f5f4' : '#111827'; ctx.fillText(n.label, n.x!, n.y! + r + 11 / scale)
+              const fs = 11 / scale
+              ctx.font = `500 ${fs}px Inter, sans-serif`; ctx.textAlign = 'center'; ctx.textBaseline = 'middle'
+              const tw = ctx.measureText(n.label).width, ty = n.y! + r + fs * 1.1
+              ctx.fillStyle = dark ? 'rgba(26,26,25,.85)' : 'rgba(255,255,255,.88)'  // label plate keeps text legible over edges
+              ctx.fillRect(n.x! - tw / 2 - 3 / scale, ty - fs * 0.7, tw + 6 / scale, fs * 1.4)
+              ctx.fillStyle = dark ? '#f5f5f4' : '#111827'; ctx.fillText(n.label, n.x!, ty)
             }
           }} />
       </div>

@@ -27,6 +27,10 @@ A prototype that helps the World Bank's Integrity Vice Presidency (INT) decide w
 
 *The case above is a Spanish-language road tender that passes every single-document check. The agent follows the bidders into the registry, finds two "competitors" linked through a shell company and part of a ring that has rotated wins across 14 past tenders, and escalates it for human review.*
 
+<p align="center"><img src="docs/img/network.png" width="560" alt="Registry graph for the Spanish tender: Rodovia Construct Ltd and Altura Infraestructura SA, which bid against each other, connect through director Tomas Ilver, shell company Corvane Holdings Ltd and a shared address; dashed lines show the three bidders' co-bidding history"></p>
+
+*The same case in the Network tab. Rodovia Construct and Altura Infraestructura bid against each other, yet they connect through a shared director (Tomas Ilver), a shell company (Corvane Holdings) and a shared registered address. Dashed lines are co-bidding history. None of this is visible in the bid evaluation report itself.*
+
 ### How work flows through the system
 
 ```
